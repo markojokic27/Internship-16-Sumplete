@@ -4,6 +4,7 @@ export const initialCell = {
   isCircle: false,
   isSolution: false,
   isAnswer: false,
+  isCorrectAnswer: false,
   isNumber: false,
   isDeleted: false
 };
