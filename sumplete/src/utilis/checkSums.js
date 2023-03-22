@@ -11,6 +11,8 @@ function checkComplete(props) {
     let index = i * 4 + 3;
     if (sum === gridCells[index].value) {
       gridCells[index].isCorrectAnswer = true;
+    } else {
+      gridCells[index].isCorrectAnswer = false;
     }
   }
   for (let j = 0; j < 3; j++) {
@@ -24,6 +26,8 @@ function checkComplete(props) {
     let index = 12 + j;
     if (sum === gridCells[index].value) {
       gridCells[index].isCorrectAnswer = true;
+    } else {
+      gridCells[index].isCorrectAnswer = false;
     }
   }
   console.log(gridCells);

@@ -98,21 +98,7 @@ h2{
   opacity: 20%;
 }
 
-.hint{
-  position: relative;
-}
 
-.hint::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 120%;
-  height: 120%;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000fff' stroke-width='2' stroke-linecap='square' stroke-linejoin='miter'%3E%3Cline x1='18' y1='6' x2='6' y2='18' /%3E%3Cline x1='6' y1='6' x2='18' y2='18' /%3E%3C/svg%3E");
-  opacity: 20%;
-}
 
 
 .vanswer{
@@ -157,15 +143,6 @@ select, button:focus{
 
 .hidden{
   display:none;
-}
-
-.credits{
-  border-top: 2px solid #e5e5e5;
-  padding-top: 10px;
-  margin-top: 10px;
-  font-size: 16px;
-  font-weight: 600;
-  color:grey;
 }
 
 a{
